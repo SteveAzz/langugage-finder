@@ -1,5 +1,7 @@
 # Background 
 
+This was uploaded for a code review with some people at the gother slack. 
+
 I am working on an agent where a user installs my agent, and part of the agent is to collection some information about the machine it is installed on. 
 So in the part of the code is checking the languages I care about if they are installed and what version. The agent will have to report back to a REST api
 with a json payload so some json encoding has to go on as well. 
